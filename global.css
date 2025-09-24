@@ -1,0 +1,110 @@
+:root{
+    --bs-body-bg: black;
+    --bs-border-color: rgb(55, 63, 73);
+    --bs-theme-color: #0066ff;
+}
+
+body{
+    background-color: --bs-body-bg;
+}
+
+.header{
+    height: 7em;
+    border-bottom: 1px solid var(--bs-border-color);
+    display: flex;
+}
+
+.navigation{
+    position: relative;
+    height: 4em;
+    width: 20%;
+    margin: auto;
+    border-radius: 5em;
+    border: 1px solid var(--bs-border-color);
+    display: flex;
+    justify-content: space-around;
+    padding-inline: 1em;
+}
+
+.nav-element{
+    height: 70%;
+    width: 25%;
+    margin: auto;
+    text-align: center;
+    border-radius: 5em;
+    color: white;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-element a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav-element.active{
+    background-color: var(--bs-body-bg);
+    color: white;
+}
+
+.nav-element:hover{
+    background-color: var(--bs-body-bg);
+    color: var(--bs-theme-color);
+    filter: saturate(0.5);
+    cursor: pointer;
+}
+
+
+
+
+.title-banner{
+    height: 40em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 1px solid var(--bs-border-color);
+}
+
+.title-banner .main-title{
+    font-size: 6em;
+    font-weight: bold;
+    text-align: center;
+
+    background: linear-gradient(to top, var(--bs-theme-color) -70%, #ffffff 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+.title-banner .main-subtitle{
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    filter: brightness(0.7);
+
+    background: linear-gradient(to top, var(--bs-theme-color) -70%, #ffffff 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+.about-me-section{
+    padding: 5em;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.me-image{
+    width: 20em;
+    border-radius: 1em;
+}
