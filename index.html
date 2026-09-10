@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Ben Clayton — software engineer building reliable tools, integrations, and interactive systems.">
+    <title>Ben Clayton | Software Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="global.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Ben Clayton, home">BC<span>.</span></a>
+      <nav aria-label="Primary navigation">
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="https://github.com/BenMClayton">GitHub</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Software engineer · UK</p>
+          <h1 id="hero-title">I build useful systems from the interface to the integration layer.</h1>
+          <p class="intro">My work spans Rust prototypes, TypeScript applications, Python automation, and building-management integrations. I care about clear boundaries, dependable behaviour, and software that can be understood by the next person.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#work">Explore selected work</a>
+            <a class="button button-secondary" href="https://github.com/BenMClayton">View GitHub profile</a>
+          </div>
+        </div>
+        <div class="signal-card" aria-label="Current technical focus">
+          <div class="signal-header"><span></span><span></span><span></span></div>
+          <p class="signal-label">CURRENT_FOCUS</p>
+          <ul>
+            <li><span>01</span> Product-minded engineering</li>
+            <li><span>02</span> Automation and integrations</li>
+            <li><span>03</span> Interactive systems</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="work" id="work" aria-labelledby="work-title">
+        <div class="section-heading">
+          <p class="eyebrow">Selected work</p>
+          <h2 id="work-title">Projects with a working point of view.</h2>
+        </div>
+        <div class="project-grid">
+          <article class="project featured">
+            <div><p class="project-number">01 / Automation</p><h3>QuotaForge</h3></div>
+            <p>A conservative Windows service that turns expiring Codex capacity into reviewable improvements for an explicit repository allowlist.</p>
+            <div class="project-footer"><span>Python · Git · Windows</span><a href="https://github.com/BenMClayton/quotaforge">Repository <span aria-hidden="true">↗</span></a></div>
+          </article>
+          <article class="project">
+            <div><p class="project-number">02 / Full stack</p><h3>Quaza</h3></div>
+            <p>A browser survival game with an original isometric renderer, deterministic worlds, persistent progression, and a shared world catalogue.</p>
+            <div class="project-footer"><span>TypeScript · React · D1</span><a href="https://github.com/BenMClayton/quaza">Repository <span aria-hidden="true">↗</span></a></div>
+          </article>
+          <article class="project">
+            <div><p class="project-number">03 / Integration</p><h3>BACnet MQTT Middleware</h3></div>
+            <p>A configurable building-automation lab tool for BACnet discovery, property inspection, MQTT monitoring, and device simulation.</p>
+            <div class="project-footer"><span>Node.js · Python · IoT</span><a href="https://github.com/BenMClayton/bacnet-mqtt-middleware">Repository <span aria-hidden="true">↗</span></a></div>
+          </article>
+          <article class="project">
+            <div><p class="project-number">04 / Reporting</p><h3>Jira OpenAI Report</h3></div>
+            <p>A traceable reporting workflow with paginated Jira retrieval, resilient API handling, structured summaries, and automation-friendly outputs.</p>
+            <div class="project-footer"><span>Python · Jira · OpenAI</span><a href="https://github.com/BenMClayton/Jira-Chatgpt-Integration">Repository <span aria-hidden="true">↗</span></a></div>
+          </article>
+          <article class="project">
+            <div><p class="project-number">05 / Media systems</p><h3>Shorts Factory</h3></div>
+            <p>A human-in-the-loop video pipeline that scores moments, tracks subjects, reframes footage, generates captions, and queues clips for review.</p>
+            <div class="project-footer"><span>FastAPI · OpenCV · ML</span><a href="https://github.com/BenMClayton/youtube-shorts-bot">Repository <span aria-hidden="true">↗</span></a></div>
+          </article>
+          <article class="project">
+            <div><p class="project-number">06 / Game systems</p><h3>Quasar</h3></div>
+            <p>A Rust isometric game prototype combining procedural worlds, survival progression, factory-style machines, and travel between planets.</p>
+            <div class="project-footer"><span>Rust · Macroquad</span><a href="https://github.com/BenMClayton/Quasar">Repository <span aria-hidden="true">↗</span></a></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="about" id="about" aria-labelledby="about-title">
+        <div class="portrait-wrap"><img src="assets/img/me.jpg" alt="Ben Clayton" width="640" height="640"></div>
+        <div>
+          <p class="eyebrow">About</p>
+          <h2 id="about-title">Engineering with curiosity and a bias for clarity.</h2>
+          <p>I enjoy moving between product details and technical systems: understanding the user journey, making the data flow explicit, and leaving behind code that is easier to operate and extend.</p>
+          <p>The repositories above include practical automation, integration work, interactive prototypes, and experiments. Each README states what is implemented today and where the boundaries are.</p>
+          <a class="text-link" href="https://github.com/BenMClayton">See all public projects <span aria-hidden="true">→</span></a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Ben Clayton · Software Engineer</p>
+      <a href="#top">Back to top ↑</a>
+    </footer>
+  </body>
+</html>
